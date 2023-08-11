@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<!-- This week we will be including our CSS and metadata using jQuery to include a file containing the information. -->
+
+<head id="head">
+    <title>Blockbuster Contact Us</title>
+    <meta name="description" content="Final Project">
+    <!-- jQuery link This must be placed before the link to our custom js ... https://releases.jquery.com/ -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- add our custom js file -->
+    <script type="text/javascript" src="./JS/custom-js.js"></script>
+    <script type="text/javascript" src="./JS/app.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header"></header>
+    <main>
+
+        <section class="contact-img-container">
+        </section>
+
+        <!-- this is the contact us page, with a form to submit a request -->
+        <div class="contact-container">
+            <h1>Connect with us</h1>
+            <p>We would love to respond to your queries and help you succeed. Feel free to get in touch with us.</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send you request</h3>
+                    <form action="#">
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="">Name</label>
+                                <input type="text" placeholder="Name">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="">Phone</label>
+                                <input type="tel" placeholder="705-123-4567">
+                            </div>
+
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="">Email</label>
+                                <input type="email" placeholder="example@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label for="">Subject</label>
+                                <input type="text" placeholder="write subject">
+                            </div>
+                        </div>
+
+                        <label for="">Message</label>
+                        <textarea rows="5" placeholder="write a request"></textarea>
+
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+
+                <!-- company info -->
+                <div class="contact-right">
+                    <h3>Reach us</h3>
+
+                    <table>
+                        <tr>
+                            <td>Email:</td>
+                            <td>blockbuster@example.com</td>
+                        </tr>
+
+                        <tr>
+                            <td>Phone:</td>
+                            <td>1 800 777 9999 </td>
+                        </tr>
+
+                        <tr>
+                            <td>Address:</td>
+                            <td>507 Cundles Rd E, Barrie, ON L4M 0G9</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Frequently asked questions accordion -->
+        <section class="mainaccordion2">
+            <h1 class="aq">Frequently Asked Questions</h1>
+            <div class="accordion2">
+                <div class="contentBox2">
+                    <div class="label2">What is BlockBusterVideo?</div>
+                    <div class="content2">
+                        <p>It is a company dedicated to offer movies rent since 1985 and nowadays offers streaming
+                            movies service.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion2">
+                <div class="contentBox2">
+                    <div class="label2">How much does BlockbusterVideo cost?</div>
+                    <div class="content2">
+                        <p>Its depend on the service contracted. We offer 3 options according your necessity or number
+                            of family member.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion2">
+                <div class="contentBox2">
+                    <div class="label2">Where can I Watch BlockbusterVideo?</div>
+                    <div class="content2">
+                        <p>The Blockbuster app is available on compatible mobile devices, web browsers, game consoles,
+                            set-top boxes, and smart TVs. For a complete list of supported and compatible devices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion2">
+                <div class="contentBox2">
+                    <div class="label2">How can I pay the monthly fee?</div>
+                    <div class="content2">
+                        <p>You can sign your credit card up automatically or your bank account. Besides, you have the
+                            alternative of pay the annual fee. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion2">
+                <div class="contentBox2">
+                    <div class="label2">Does BlockbusterVideo offer parental controls</div>
+                    <div class="content2">
+                        <p>Yes, Disney includes robust, easy-to-use parental controls to help manage what your little
+                            ones and family watch. Disney+ Profiles lets you set a content rating for each profile,
+                            restricting the movies and series your kids will see on their profile. Combine that with the
+                            ability to set a four-digit PIN for each profile, so the kids can’t wander onto yours and
+                            watch the grown-up shows, and it means you can rest-assured they won’t see anything they
+                            shouldn’t. To find out more about parental controls</p>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer id="footer"></footer>
+</body>
+
+</html>
